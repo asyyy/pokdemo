@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pokdemo';
+  // tslint:disable-next-line:typedef
+  foo(){
+    this.title = 'Hello le web';
+  }
 }
